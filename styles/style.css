@@ -6,3 +6,70 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    font-family: "Helvetica", "Arial";
+  }
+
+img {
+    max-width: 10%;
+    height: auto;
+    }
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}    
+
+.landingpage {
+    background: url(../images/landing.jpg);
+    background-size: cover;
+    height: 500px;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catchphrase {
+    font-size: 55px;
+    color: #FFF;
+    padding-bottom: 25px;    
+}
+
+.supportphrase {
+    font-size: 18px;
+    color: #FFF;
+}
+
+
+.section3 {
+    background-color: #00B172;
+    color: #FFF;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.lefttext {
+    width: 1200px;
+}
+
+h2 {
+    text-decoration: underline;    
+}
+
+span {
+    font-weight: lighter;
+}
+
+.spotlogo {
+    width: 110%;
+    height: auto;
+}
+
+.spotapp {
+    width: 100%;
+    height: auto;
+}
